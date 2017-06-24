@@ -1,0 +1,131 @@
+/* MAIN CSS STYLE */ 
+
+/* ***************************DEBUG*************************** */ 
+/* uncomment these to debug*/
+/*a, ul{
+  border: 2px solid;
+  border-color: orange; 
+}*/
+
+/* ########################################################### */
+
+
+
+
+
+
+/* *****************STYLE COMMON TO ALL PAGES***************** */
+/* ---------------------------BODY---------------------------- */
+/* html page height to include an empty space at the bottom */
+html{
+  height: auto;
+}
+/* body black background color */ 
+body{ 
+  background-color: white;
+}
+/* selected text color */
+::selection{
+  background: #FF6600;
+}
+::-moz-selection{
+  background: #FF6600;
+}
+
+/* --------------------------TEXT----------------------------- */
+@font-face {
+  font-family: Roboto_Mono;
+  src: local("Roboto_Mono"),
+       local("RobotoMono-Medium"),
+       local("RobotoMono-Regular"),
+       url("../fonts/Roboto_Mono/RobotoMono-Medium.ttf"),
+       url("../fonts/Roboto_Mono/RobotoMono-Regular.ttf");
+}
+p{
+  font-family: RobotoMono-Regular;
+}
+
+/* --------------------------MENU----------------------------- */
+iframe#Menu{
+  position: relative;
+  background: none transparent;
+  border-color: transparent; /* use orange as markup then change to transparent*/ 
+
+  width: 100%;
+  height: 15%;
+  min-height:80px;
+  margin-top: -40px;
+  margin-left: -40px;
+}
+
+h5#Menu{ 
+  float: left;
+  padding:0;
+  text-align: left;
+  width: 100%;
+}
+
+a#Menu{
+  color: black;
+  font-family: RobotoMono-Regular; 
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 12px;
+  margin-right: 12px;
+  word-wrap: break-word;
+}
+ul#Menu{
+  margin-left: -22px;
+}
+
+/* *****************STYLE COMMON TO PAGES ONLY***************** */
+/* --------------------------CONTENT----------------------------- */
+section#Content{
+  height:auto;
+  margin-top: 60px;
+}
+img#Content{
+  float: left;
+  margin-top: 0%;
+  margin-left: 0%;
+  width: 50%;
+  height: auto;
+  display: flex;
+  -ms-object-fit: cover;
+  -moz-object-fit: cover;
+  -o-object-fit: cover;
+  -webkit-object-fit: cover;
+  object-fit: cover;
+}
+p#Content{
+  margin-left: 3%;
+  /*margin-top: -33%;*/
+  width: 47%;
+  font-size: 11px;
+  padding:0;
+  text-align: left;
+  /*position: relative;*/
+  word-wrap: break-word;
+}
+#Content.horizontal{
+  width: 93%;
+  float: left;
+}
+
+#Content.right{
+  float: right;
+}
+#Content.left{
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
