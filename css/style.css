@@ -42,7 +42,7 @@ body{
 
 }
 
-p{
+p, a{
   font-family: 'roboto_monoregular';
 }
 
@@ -68,7 +68,7 @@ h5#Menu{
 
 a#Menu{
   color: black;
-  font-family: 'roboto_monoregular'; 
+  /*font-family: 'roboto_monoregular'; */
   font-size: 14px;
   text-decoration: none;
   margin-left: 12px;
