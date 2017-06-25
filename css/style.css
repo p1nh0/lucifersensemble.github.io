@@ -90,8 +90,9 @@ img#Content{
   float: left;
   margin-top: 0%;
   margin-left: 0%;
-  width: 50%;
-  height: auto;
+  margin-bottom: 40%;
+  width: 166px;
+  height: 166px;
   display: flex;
   -ms-object-fit: cover;
   -moz-object-fit: cover;
@@ -100,13 +101,15 @@ img#Content{
   object-fit: cover;
 }
 p#Content{
-  margin-left: 3%;
+  /*margin-left: 3%;*/
   /*margin-top: -33%;*/
-  width: 47%;
+  display:inline-flex;
+  width: 340px;
   font-size: 11px;
   padding:0;
   text-align: left;
-  /*position: relative;*/
+  margin-left: 20px;
+  position: absolute;
   word-wrap: break-word;
 }
 #Content.horizontal{
@@ -128,7 +131,7 @@ section#Journal{
   margin-top: 30px;
   width: 240px;
   float: left;
-
+  margin-bottom: 60px;
 }
 img#Journal{
   float: left;
