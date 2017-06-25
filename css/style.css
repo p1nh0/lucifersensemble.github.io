@@ -166,9 +166,10 @@ p#Journal{
 /* --------------------EMPTY FOOTER-------------------------- */
 /* id to add white empty space at the bottom of every page */
 #Empty{
-  position: relative;
+  position: absolute;
   float: left;
   width: 100%;
+  bottom: 0px;
   height:30px;
   color: transparent;
   background-color: white;
