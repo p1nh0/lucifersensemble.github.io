@@ -123,6 +123,18 @@ p#Content{
 #Content.left{
   float: left;
 }
+/* *****************STYLE COMMON TO PAGES ONLY***************** */
+/* --------------------------LIST----------------------------- */
+p#List{
+  margin-left: 3%;
+    /*margin-top: -33%;*/
+  width: 47%;
+  font-size: 11px;
+  padding:0;
+  text-align: left;
+  /*position: relative;*/
+  word-wrap: break-word;
+}
 
 /* *****************STYLE COMMON TO PAGES ONLY***************** */
 /* --------------------------JOURNAL----------------------------- */
